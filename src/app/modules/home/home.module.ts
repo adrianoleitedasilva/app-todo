@@ -4,24 +4,22 @@ import { CommonModule } from '@angular/common';
 // Components
 import { HeaderComponent } from './components/header/header.component';
 import { TodoButtonDeleteAllComponent } from './components/todo-button-delete-all/todo-button-delete-all.component';
-import { TodoInputAddItensComponent } from './components/todo-input-add-itens/todo-input-add-itens.component';
+import { TodoInputAddItemsComponent } from './components/todo-input-add-items/todo-input-add-items.component';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
 
-// Pages
+// Page
 import { HomeComponent } from './pages/home/home.component';
-
-
 
 @NgModule({
   declarations: [
     HeaderComponent,
     TodoButtonDeleteAllComponent,
-    TodoInputAddItensComponent,
+    TodoInputAddItemsComponent,
     TodoListComponent,
     HomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
 export class HomeModule { }

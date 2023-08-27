@@ -1,14 +1,27 @@
-<!-- PARA ESCOLHER AS CORES DAS LINGUAGENS USAR O SITE https://brandcolors.net/ -->
-![ShielddoProjeto](https://img.shields.io/badge/Nome-ToDoList_Angular-b52e31.svg?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/badge/Versão-1.0.0-e9ebec.svg?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/badge/Linguagem-Typescript-00c4cc.svg?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/badge/Framework-Angular-00c4cc.svg?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/github/repo-size/adrianoleitedasilva/app-todo?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/github/directory-file-count/adrianoleitedasilva/app-todo?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/github/stars/adrianoleitedasilva/app-todo?style=for-the-badge) 
-![ShielddoProjeto](https://img.shields.io/github/forks/adrianoleitedasilva/app-todo?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/github/issues-pr/adrianoleitedasilva/app-todo?style=for-the-badge)
-![ShielddoProjeto](https://img.shields.io/github/last-commit/adrianoleitedasilva/app-todo?style=for-the-badge)
+# AppTodo
 
-<!-- Envie a imagem por meio de uma ISSUE e cole o link aqui nessa linha abaixo -->
-![ToDoBanner](https://github.com/adrianoleitedasilva/app-todo/assets/6373438/4d2849c7-a442-46ce-94c5-39719af0a682)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
