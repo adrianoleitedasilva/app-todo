@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 // Components
 import { HeaderComponent } from './components/header/header.component';
@@ -20,6 +21,7 @@ import { HomeComponent } from './pages/home/home.component';
   ],
   imports: [
     CommonModule,
+    FormsModule
   ]
 })
 export class HomeModule { }
