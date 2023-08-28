@@ -14,4 +14,8 @@ export class TodoListComponent  {
     { task: "Minha nova task", checked: true },
     { task: "Minha nova task 2", checked: false },
   ];
+
+  public deleteItemTaskList(event: number) {
+    this.taskList.splice(event, 1);
+  }
 }
