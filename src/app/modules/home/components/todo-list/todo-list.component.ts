@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, DoCheck } from '@angular/core';
 
 // Interface
 import { TaskList } from '../../model/task-list';
+import { first, last } from 'rxjs';
 
 @Component({
   selector: 'app-todo-list',
@@ -9,8 +10,13 @@ import { TaskList } from '../../model/task-list';
   styleUrls: ['./todo-list.component.scss']
 })
 
-export class TodoListComponent  {
+export class TodoListComponent implements DoCheck {
   public taskList: Array<TaskList> = [];
+
+  ngDoCheck(): void {
+    this.taskList.sort( (first, last)=> Number(first.checked) - Number(last.checked));
+  }
+
 
   public setEmitTaskList(event: string) {
     console.log(event);

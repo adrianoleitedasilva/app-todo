@@ -11,6 +11,9 @@ export class TodoInputAddItemsComponent {
   public addItemTaskList: string = "";
 
   public submitItemTaskList() {
+    // Corrigindo problema sobre o envio de tasks vazias
+    this.addItemTaskList = this.addItemTaskList.trim();
+
     if(this.addItemTaskList){
       this.emitItemTastList.emit(this.addItemTaskList);
       this.addItemTaskList = "";
