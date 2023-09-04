@@ -6,12 +6,12 @@
             <input type="text" title="task" [(ngModel)]="item.task">
 
             <button (click)="deleteItemTaskList(i)">
-                <img src="../../../../../assets/icons/icon-trash.svg" alt="">
+                <img src=".././../.../../assets/icons/icon-trash.svg" alt="">
             </button>
         </li>
     </ul>
 
 </section>
 
-<app-todo-input-add-items></app-todo-input-add-items>
-<app-todo-button-delete-all *ngIf="taskList.length"></app-todo-button-delete-all>
+<app-todo-input-add-items (emitItemTastList)="setEmitTaskList($event)"></app-todo-input-add-items>
+<app-todo-button-delete-all *ngIf="taskList.length" (click)="deleteAllTaskList()"></app-todo-button-delete-all>
